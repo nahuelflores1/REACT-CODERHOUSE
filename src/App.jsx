@@ -1,11 +1,11 @@
-import Navbar from "./Navbar";
-import ProductList from "./ProductsList";
-import Footer from "./footer";
+import { Navbar } from "./Navbar";
+import { Home } from "./Home";
 
 function App() {
     return (
         <div>
-            <h1>Este es el app</h1>
+            <Navbar />
+            <Home />
         </div>
     );
 }
