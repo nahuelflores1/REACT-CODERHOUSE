@@ -1,0 +1,43 @@
+.container-fluid {
+    background-color: rgba(0, 0, 0, 0.358);
+}
+
+.carlogo {
+    text-align: center;
+}
+
+.container-navbar {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.logocar {
+    height: 50px;
+    object-fit: contain;
+    margin: 20px;
+    text-align: center;
+}
+
+.mainavbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainavbar a {
+    color: white;
+    padding: 30px;
+    letter-spacing: 1px;
+}
+
+.mainavbar a:hover {
+    color: #ffc107;
+}
+
+.carticon {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
