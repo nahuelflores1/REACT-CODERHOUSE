@@ -52,7 +52,7 @@ export const products = [
         stock: 3,
         description:
             "Forced induction components mainly consist of supercharger or turbocharger parts that are used to make significant power gains on your vehicle. If you are looking for a significant increase in horsepower, look no further than forced induction.",
-        category: "forced induction",
+        category: "forcedInduction",
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687820919/samples/CODERHOUSE-REACT/INDUCTION%20CATEGORY/e164043c7a1c8a6368b69120601be14f_65842e90-01cc-4819-8456-a2708ea70fad_750x_xxogle.jpg",
     },
     {
@@ -62,7 +62,7 @@ export const products = [
         stock: 7,
         description:
             "Forced induction components mainly consist of supercharger or turbocharger parts that are used to make significant power gains on your vehicle. If you are looking for a significant increase in horsepower, look no further than forced induction.",
-        category: "forced induction",
+        category: "forcedInduction",
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687821016/samples/CODERHOUSE-REACT/INDUCTION%20CATEGORY/7a830407-9ea1-4825-9be7-0d82a8c3d8ae-800_1f2076be-0761-4434-b8f3-dbed4e68c1e2_750x_uwdclr.jpg",
     },
 

@@ -1,23 +1,26 @@
 import { useEffect, useState } from "react";
 import ItemList from "./ItemList";
+import { products } from "../../../productsMock";
 
-const ItemList = () => {
-    const [products, setProducts] = useState([]);
-
-    const [edad, setEdad] = useState(20);
+import { useParams } from "react-router-dom";
+const ItemListContainer = () => {
+    const [items, setItems] = useState([]);
+    const { categoryName } = useParams();
 
     useEffect(() => {
-        console.log("llamado a la API");
-    });
+        let productosFiltrados = products.filter(
+            (elemento) => elemento.category === categoryName
+        );
+        const tarea = new Promise((resolve, reject) => {
+            resolve(categoryName ? productosFiltrados : products);
+        });
 
-    console.log(products);
-    return;
-    <ItemList
-        edad={edad}
-        setEdad={setEdad}
-        products={products}
-        setProducts={setProducts}
-    />;
+        tarea
+            .then((respuesta) => setItems(respuesta))
+            .catch((error) => console.log(error));
+    }, [categoryName]);
+
+    return <ItemList items={items} />;
 };
 
-export default ItemList;
+export default ItemListContainer;
