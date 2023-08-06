@@ -2,8 +2,7 @@ export const products = [
     //INTERIOR CATEGORIES
 
     {
-        id: 1,
-        title: "NRG Reinforced Steering Wheel",
+        title: "NRG  Steering Wheel",
         price: 180,
         stock: 4,
         description:
@@ -12,8 +11,7 @@ export const products = [
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687820716/samples/CODERHOUSE-REACT/INTERIOR%20CATEGORY/42e87fd2ed26c25dbd5cf487834be123_2dced0d3-1ad8-496b-863d-bad33c445836_750x_ta3vmj.jpg",
     },
     {
-        id: 2,
-        title: "Sparco Seat QRT-R 2019 Red",
+        title: "Sparco Seat QRT-R Red",
         price: 899,
         stock: 2,
         description:
@@ -25,7 +23,6 @@ export const products = [
     //WHEELS CATEGORIES
 
     {
-        id: 3,
         title: "XD Xd850 Cage Wheel",
         price: 300,
         stock: 3,
@@ -34,7 +31,6 @@ export const products = [
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687820777/samples/CODERHOUSE-REACT/WHEELS%20CATEGORY/Large-CAGE-XD8503-A1-png_d239795d-9b63-42cc-af6c-a88397459e6f_550x_jbtrpj.png",
     },
     {
-        id: 4,
         title: "TSW Valencia Wheel",
         price: 230,
         stock: 3,
@@ -46,8 +42,7 @@ export const products = [
     //INDUCTUION FORCED CATEGORIES
 
     {
-        id: 5,
-        title: "Garrett GTX5533R Super Core 91mm Inducer Gen II",
+        title: "Garrett GTX5533R Super Core",
         price: 4943,
         stock: 3,
         description:
@@ -56,8 +51,7 @@ export const products = [
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687820919/samples/CODERHOUSE-REACT/INDUCTION%20CATEGORY/e164043c7a1c8a6368b69120601be14f_65842e90-01cc-4819-8456-a2708ea70fad_750x_xxogle.jpg",
     },
     {
-        id: 6,
-        title: "ATS Diesel 94-98 Dodge Aurora 3000 Turbo Kit - 2029302164",
+        title: "ATS Diesel 94-98 Dodge Aurora ",
         price: 4200,
         stock: 7,
         description:
@@ -69,8 +63,7 @@ export const products = [
     //EXHAUST CATEGORIES
 
     {
-        id: 7,
-        title: "HKS 02-03 Acura RSX Base (non S) Hi Power Exaust",
+        title: "HKS 02-03 Acura RSX Base",
         price: 2545,
         stock: 4,
         description:
@@ -79,8 +72,7 @@ export const products = [
         img: "https://res.cloudinary.com/danyjwbe8/image/upload/v1687821068/samples/CODERHOUSE-REACT/EXHAUST%20CATEGORY/56e7dc12cac2f6f8bc6907910be7d61e_5450675d-f707-41dd-b2be-a3db14cba409_750x_m5xtxj.jpg",
     },
     {
-        id: 8,
-        title: "AWE Tuning BMW F8X M3/M4 SwitchPath Catback Exhaust",
+        title: "AWE Tuning BMW F8X M3/M4",
         price: 341,
         stock: 7,
         description:

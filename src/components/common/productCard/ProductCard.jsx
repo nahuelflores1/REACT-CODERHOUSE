@@ -7,32 +7,23 @@ import {
     Typography,
 } from "@mui/material";
 import { Link } from "react-router-dom";
+import "./ProductCard.css";
 
 const ProductCard = ({ item }) => {
     return (
-        <Card style={{ margin: "40px" }} sx={{ maxWidth: 345 }}>
-            <CardMedia
-                style={{ objectFit: "contain" }}
-                component="img"
-                alt="green iguana"
-                height="140"
-                image={item.img}
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                    {item.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                    {item.description}
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <h6 size="small">{item.price}</h6>
-                <Link to={`/itemDetail/${item.id}`}>
-                    <Button size="small">VER DETALLES</Button>
-                </Link>
-            </CardActions>
-        </Card>
+        <Link className="all-products" to={`/itemDetail/${item.id}`}>
+            <Card className="product">
+                <CardMedia
+                    className="product.img"
+                    component="img"
+                    image={item.img}
+                />
+                <CardContent>
+                    <h3 className="product-title">{item.title}</h3>
+                </CardContent>
+                <span className="product-price"> $ {item.price}</span>
+            </Card>
+        </Link>
     );
 };
 
